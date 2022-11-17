@@ -24,16 +24,14 @@ class Program
         randomNumber = rnd.Next(1, 6);
 
         Console.WriteLine("");
-        if (userNumber == randomNumber)
-        {
+        if (userNumber == randomNumber){
         Console.WriteLine("The answer was: " + randomNumber + ". You got it right!");
-      }
-
-        if (userNumber != randomNumber)
-        {
+        }
+  
+        if (userNumber != randomNumber){
         Console.WriteLine("The answer was: " + randomNumber + ". You got it wrong. Better luck next time!");
-      }
+        }
 
-        Console.WriteLine("\nDone.");
+      Console.WriteLine("\nDone.");
     }
 }
