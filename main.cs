@@ -26,14 +26,14 @@ class Program
         Console.WriteLine("");
         if (userNumber == randomNumber)
         {
-      Console.WriteLine("The answer was: " + randomNumber + ". You got it right!");
+            Console.WriteLine("The answer was: " + randomNumber + ". You got it right!");
         }
 
         if (userNumber != randomNumber)
         {
-      Console.WriteLine("The answer was: " + randomNumber + ". You got it wrong. Better luck next time!");
+            Console.WriteLine("The answer was: " + randomNumber + ". You got it wrong. Better luck next time!");
         }
 
-  Console.WriteLine("\nDone.");
+    Console.WriteLine("\nDone.");
     }
 }
