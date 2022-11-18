@@ -34,6 +34,7 @@ class Program
             Console.WriteLine("The answer was: " + randomNumber + ". You got it wrong. Better luck next time!");
         }
 
-    Console.WriteLine("\nDone.");
+    
+        Console.WriteLine("\nDone.");
     }
 }
